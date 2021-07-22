@@ -1,0 +1,20 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int a,b,h;
+    
+    std::cout << "ENTER YOUR b and h :" << std::endl;
+    
+    std::cin >> b>>h;
+    
+    a= 0.5*b*h;
+    
+    cout<<"The area is :"<<a<<endl;
+    
+    return 0;
+}
