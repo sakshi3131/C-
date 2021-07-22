@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a ,b,c;
+    cout<<"Enter  three numbers :"<<endl;
+    cin>>a>>b>>c;
+    
+    if((a>b)&&(a>c)){
+        std::cout <<a<< " a is greater than "<<b<<" "<<c << std::endl;
+    }
+    else if((b>c)&&(b>c)){
+        std::cout <<b<< " b is greater than "<<a<<" "<<c << std::endl;
+
+    }
+    else if((a==b)){
+        std::cout <<" "<<  a<<" is equal to "<<b << std::endl;
+    }
+    else if ((b==c)){ 
+        std::cout <<" "<<  b<<" is equal to "<<c << std::endl;
+
+    }
+    else if ((c==a)){
+        std::cout <<" "<< c<<" is equal to "<<a << std::endl;
+
+    }
+    else{
+        std::cout <<c<< " c is greater than "<<a<<" "<<b << std::endl;
+
+    }
+
+    return 0;
+}
